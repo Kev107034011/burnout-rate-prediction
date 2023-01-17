@@ -1,6 +1,7 @@
 # Employee Burnout Rate Prediction
 ## Predict if your employee will Burn Out
 Understanding what will be the Burn Rate for the employee working in an organization based on the current pandemic situation where work from home is a boon and a bane. How are employees' Burn Rate affected based on various conditions provided?
+
 當前在家工作大流行的情況下，欲了解在組織中工作員工的工作疲勞率是多少。根據提供的各種條件，以AI與機器學習的現有module來推估員工的疲勞率如何受到影響
 
 ## Algorithms
