@@ -5,7 +5,8 @@ Understanding what will be the Burn Rate for the employee working in an organiza
 當前在家工作大流行的情況下，欲了解在組織中工作員工的工作疲勞率是多少。根據提供的各種條件，以AI與機器學習的現有module來推估員工的疲勞率如何受到影響
 
 ## Algorithms
-將數據進行資料前處理(KNNImputer、TargetEncoding、Feature Selection)後，套入近期熱門之機器學習演算法建立多種模型，並使用 Optuna 預設之 TPESampler 進行超參數優化。
+將數據進行資料前處理(KNNImputer、TargetEncoding、Feature Selection)後，套入近期熱門之機器學習演算法建立多種模型，並使用 Optuna 預設之 TPESampler 進行超參數優化。(除了 DeepLearning 模型是以 Bayesian Optimization 優化超參數)
+
 - [XGBRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_XGBoost.ipynb)
 - [LGBMRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_LightGBM.ipynb)
 - [CatBoostRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_CATBoost.ipynb)
