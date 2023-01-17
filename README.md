@@ -6,12 +6,12 @@ Understanding what will be the Burn Rate for the employee working in an organiza
 
 ## Algorithms
 將數據進行資料前處理(特徵篩選、TargetEncoding)後，套入近期熱門之機器學習演算法建立多種模型，並使用 Optuna 預設之 TPESampler 進行超參數優化。
-[XGBRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_XGBoost.ipynb)
-[LGBMRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_LightGBM.ipynb)
-[CatBoostRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_CATBoost.ipynb)
-[StackingRegressor(XGB+LGBM+CAT+MLP作輸出層) 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_Stacking.ipynb)
-[RandomForestRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_RandomForest.ipynb)
-[Tensorflow 框架建立之深度學習模型 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_DeepLearning.ipynb)
+- [XGBRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_XGBoost.ipynb)
+- [LGBMRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_LightGBM.ipynb)
+- [CatBoostRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_CATBoost.ipynb)
+- [StackingRegressor(XGB+LGBM+CAT+MLP作輸出層) 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_Stacking.ipynb)
+- [RandomForestRegressor 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_RandomForest.ipynb)
+- [Tensorflow 框架建立之深度學習模型 程式檔](https://github.com/Kev107034011/burnout-rate-prediction/blob/main/BurnoutRate_Prediction_DeepLearning.ipynb)
 
 ## Dataset Description
 - Employee ID: The unique ID allocated for each employee
